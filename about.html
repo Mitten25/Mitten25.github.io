@@ -1,49 +1,59 @@
 ﻿<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width" />
-        <meta name="description" content="stuff" />
-        <meta name="keywords" content="more stuff" />
-        <meta name="author" content="Andrew Radford" />
-        <title>Andrew Radford | About</title>
-        <link rel="stylesheet" href="./css/style.css" />
-    </head>
-    <body>
-        <header>
-            <div class="container">
-                <div id="branding">
-                    <img src="./img/Logo2.png" width="64" height="64"/>
-                </div>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li class ="current"><a href="about.html">About</a></li>
-                        <li><a href="projects.html">Projects</a></li>
-                    </ul>
-                </nav>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content="stuff" />
+    <meta name="keywords" content="more stuff" />
+    <meta name="author" content="Andrew Radford" />
+    <title>Andrew Radford | About</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <img src="./img/Logo2.png" width="64" height="64" />
             </div>
-        </header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="current"><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-        <section id="about">
-            <div class="container">
-                <img src="./img/img1.jpg" width="512" height="767"/>
-                <h1>text</h1>
-                <p>more text.</p>
-            </div>
-        </section>
+    <script>
+        function showForm() {
+            var x = document.getElementById('contactframe');
+            if (x.style.display === 'none') {
+                x.style.display = 'block';
+            }
+        }
+    </script>
 
-        <section id="contactform">
-            <div class="container">
-                <h1>Contact</h1>
-                <form>
-                    <input type="email" placeholder="Enter Email..." />
-                    <button type="submit" class="button_1">Enter</button>
-                </form>
-            </div>
-        </section>
+    <section id="contactframe" style="display: none;">
+        <iframe src="contactform.html" style="border: 2px solid #000000;"></iframe>
+    </section>
 
-<!--        <section id="boxes">
+    <section id="about">
+        <div class="container">
+            <img src="./img/img1.jpg" width="512" height="767" />
+            <h1>text</h1>
+            <p>more text.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h1>Contact</h1>
+            <button onclick="showForm()" class="button_1">Click me!</button>
+        </div>
+    </section>
+
+    <!--        <section id="boxes">
             <div class="container">
                 <div class="box">
                     <img src="./img/icon.png" />
@@ -63,8 +73,8 @@
             </div>
         </section>-->
 
-        <footer>
-            <p>Andrew Radford &copy; 2017</p>
-        </footer>
-    </body>
+    <footer>
+        <p>Andrew Radford &copy; 2017</p>
+    </footer>
+</body>
 </html>

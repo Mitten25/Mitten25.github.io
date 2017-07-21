@@ -26,6 +26,19 @@
         </div>
     </header>
 
+    <script>
+        function showForm() {
+            var x = document.getElementById('contactframe');
+            if (x.style.display === 'none') {
+                x.style.display = 'block';
+            }
+        }
+    </script>
+
+    <section id="contactframe" style="display: none;">
+        <iframe src="contactform.html" style="border: 2px solid #000000;"></iframe>
+    </section>
+
     <section id="showcase">
         <div class="container">
             <div class="name">
@@ -52,7 +65,7 @@
 
     <section id="showcase2">
         <div class="container">
-<!--            <h1>Andrew Radford</h1>-->
+            <!--            <h1>Andrew Radford</h1>-->
             <!--            <p>more text.</p>-->
             <!--            <div class="square">
                 <img src="./img/icon.png" />
@@ -72,13 +85,10 @@
         </div>
     </section>
 
-    <section id="contactform">
+    <section id="contact">
         <div class="container">
             <h1>Contact</h1>
-            <form>
-                <input type="email" placeholder="Enter Email..." />
-                <button type="submit" class="button_1">Enter</button>
-            </form>
+            <button onclick="showForm()" class="button_1">Click me!</button>
         </div>
     </section>
 

@@ -82,17 +82,22 @@ header {
         /*font-weight:bold;*/
     }
 
+/*ContactFrame*/
+#contactframe {
+    width: 50%;
+    text-align: center;
+}
+    #contactframe iframe {
+        position: fixed;
+        width: 50%;
+        height: 75.3%;
+    }
+
 /*Showcase*/
 #showcase {
     min-height: 400px;
-    /*background: url('../img/img2.jpg') no-repeat center;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;*/
     text-align: center;
     color: #1B1C1F;
-    /*margin-top: 50px;*/
 }
 
     #showcase .square {
@@ -175,25 +180,19 @@ header {
 
 
 /*Contact*/
-#contactform {
+#contact {
     padding: 20px;
     color: #ffffff;
     background: #1B1C1F;
 }
 
-    #contactform h1 {
+    #contact h1 {
         float: left;
     }
 
-    #contactform form {
-        float: right;
-        margin-top: 15px;
-    }
-
-    #contactform input[type="email"] {
-        padding: 4px;
-        height: 25px;
-        width: 250px;
+    #contact button{
+        float:right;
+        margin-top:15px;
     }
 
 /*Boxes*/
