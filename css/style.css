@@ -87,10 +87,22 @@ header {
     width: 50%;
     text-align: center;
 }
+
     #contactframe iframe {
         position: fixed;
         width: 50%;
-        height: 75.3%;
+        height: 75%;
+        max-height: 600px;
+    }
+
+    #contactframe button {
+        margin-top: 0;
+        position: fixed;
+        right: 27%;
+        z-index: +2;
+        font-size: 20px;
+        color: #F3F2F2;
+        background: none;
     }
 
 /*Showcase*/
@@ -190,9 +202,9 @@ header {
         float: left;
     }
 
-    #contact button{
-        float:right;
-        margin-top:15px;
+    #contact button {
+        float: right;
+        margin-top: 15px;
     }
 
 /*Boxes*/
