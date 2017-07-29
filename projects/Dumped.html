@@ -1,0 +1,176 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content="stuff" />
+    <meta name="keywords" content="more stuff" />
+    <meta name="author" content="Andrew Radford" />
+    <title>Andrew Radford | About</title>
+    <style type="text/css">
+        body {
+            font-family: Corbel;
+            font-size: 15px;
+            line-height: 1.5;
+            padding: 0;
+            margin: 0;
+            background-color: #F3F2F2;
+        }
+
+        /*Global*/
+        .container {
+            width: 100%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        /*Header*/
+        header {
+            background: #F3F2F2;
+            color: #1B1C1F;
+            padding: 0;
+            min-height: 50px;
+            margin-top: 15px;
+            border-bottom: #35424A solid;
+        }
+
+            header a {
+                color: #1B1C1F;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 18px;
+            }
+
+            header li {
+                float: left;
+                display: inline;
+                /*Top, Right, Bottom, Left*/
+                padding: 0 20px 0 20px;
+            }
+
+            header #branding {
+                float: left;
+                margin-left: 20px;
+                margin-bottom: 10px;
+            }
+
+                header #branding h1 {
+                    margin: 0;
+                    padding: 0;
+                    color: #1B1C1F;
+                    text-transform: uppercase;
+                    font-size: 18px;
+                    font-weight: lighter;
+                }
+
+            header nav {
+                float: right;
+                margin-top: 20px;
+            }
+
+            header .highlight, header .current a {
+                color: #1B1C1F;
+                font-weight: bold;
+            }
+
+            header a:hover {
+                color: #CCCCCC;
+                /*font-weight:bold;*/
+            }
+
+        /*About*/
+        #about {
+            min-height: 800px;
+            /*text-align: center;*/
+            color: #1B1C1F;
+            margin-top: 50px;
+            margin-left: 10%;
+        }
+
+            #about h1 {
+                margin: 0;
+                padding: 0;
+                font-size: 40px;
+            }
+
+            #about p {
+                margin: 0;
+                padding: 0;
+                font-size: 20px;
+            }
+
+            #about img {
+                margin: 0;
+                padding: 0;
+                margin-top: 15px;
+                margin-right: 15px;
+                float: left;
+                border-radius: 10px;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <img src="../img/Logo2.png" width="64" height="64" />
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../about.html">About</a></li>
+                    <li class="current"><a href="../projects.html">Projects</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <script>
+        function showForm() {
+            var x = document.getElementById('contactframe');
+            if (x.style.display === 'none') {
+                x.style.display = 'block';
+            }
+            else
+                x.style.display = 'none';
+        }
+    </script>
+
+    <section id="about">
+        <div class="container">
+            <h1>Dumped</h1>
+            <p>Extreme Space Based Garbage Collection</p>
+            <img src="../img/DumpedIcon.PNG" width="512" />
+        </div>
+    </section>
+
+    <!--        <section id="boxes">
+            <div class="container">
+                <div class="box">
+                    <img src="./img/icon.png" />
+                    <h3>something1</h3>
+                    <p>s1 description</p>
+                </div>
+                <div class="box">
+                    <img src="./img/icon.png" />
+                    <h3>something2</h3>
+                    <p>s2 description</p>
+                </div>
+                <div class="box">
+                    <img src="./img/icon.png" />
+                    <h3>something3</h3>
+                    <p>s3 description</p>
+                </div>
+            </div>
+        </section>-->
+
+    <footer>
+        <p>Andrew Radford &copy; 2017</p>
+    </footer>
+</body>
+</html>
