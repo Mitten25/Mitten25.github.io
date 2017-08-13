@@ -84,13 +84,13 @@ header {
 
 /*ContactFrame*/
 #contactframe {
-    width: 50%;
+    width: 45%;
     text-align: center;
 }
 
     #contactframe iframe {
         position: fixed;
-        width: 50%;
+        width: 55%;
         height: 75%;
         max-height: 600px;
     }
@@ -98,7 +98,7 @@ header {
     #contactframe button {
         margin-top: 0;
         position: fixed;
-        right: 27%;
+        right: 25%;
         z-index: +2;
         font-size: 20px;
         color: #F3F2F2;
