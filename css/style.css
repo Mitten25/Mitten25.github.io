@@ -1,5 +1,5 @@
 ﻿body {
-    font-family: Corbel;
+    font-family: 'Comfortaa', sans-serif;
     font-size: 15px;
     line-height: 1.5;
     padding: 0;
@@ -283,27 +283,39 @@ header {
 
 /*About*/
 #about {
-    min-height: 800px;
+    min-height: 700px;
     /*text-align: center;*/
     color: #1B1C1F;
 }
 
-    #about h1 {
-        font-size: 40px;
-        margin-bottom: 10px;
+
+
+    #about .gallery {
+        overflow: hidden;
+        margin-left: 5%;
+        margin-top: 50px;
+        margin-right: 5%;
     }
 
-    #about p {
-        font-size: 20px;
-    }
+        #about .gallery img {
+            width: 500px;
+            height: 500px;
+            object-fit: cover;
+            float: left;
+            margin: -50px 50px 0 0;
+            /*border-radius: 10px;*/
+        }
 
-    #about img {
-        margin-left: 20px;
-        margin-top: 15px;
-        margin-right: 15px;
-        float: left;
-        border-radius: 10px;
-    }
+        #about .gallery h1 {
+            font-size: 30px;
+            margin-top : 0px;
+            margin-bottom: 10px;
+        }
+
+        #about .gallery p {
+            font-size: 18px;
+            margin-right: 10%;
+        }
 
 
 /*Contact*/
@@ -346,7 +358,6 @@ header {
             font-size: 17px;
             font-weight: bold;
             color: #A9A9A9;
-            font-family: Calibri;
         }
 
         #boxes .box h3 {
@@ -356,7 +367,6 @@ header {
             font-size: 20px;
             font-weight: bold;
             color: #1B1C1F;
-            font-family: Calibri;
         }
 
         #boxes .box img {
