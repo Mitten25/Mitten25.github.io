@@ -26,6 +26,7 @@ ul {
     padding-left: 20px;
     padding-right: 20px;
     color: #080B28;
+    font-family: 'Comfortaa', sans-serif;
 }
 
 /*Header*/
@@ -308,7 +309,7 @@ header {
 
         #about .gallery h1 {
             font-size: 30px;
-            margin-top : 0px;
+            margin-top: 0px;
             margin-bottom: 10px;
         }
 
