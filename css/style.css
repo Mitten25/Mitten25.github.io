@@ -373,6 +373,7 @@ header {
         #boxes .box img {
             width: 75%;
             border-radius: 10px;
+            max-height: 240px;
         }
 
             #boxes .box img:hover {
