@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content="stuff" />
+    <meta name="keywords" content="more stuff" />
+    <meta name="author" content="Andrew Radford" />
+    <title>Andrew Radford | Welcome</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <!--                    <h1><span class="highlight">My</span> Personal Website</h1>-->
+                <img src="./img/Logo2.png" width="64" height="64" />
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <script>
+        function showForm() {
+            var x = document.getElementById('contactframe');
+            if (x.style.display === 'none') {
+                x.style.display = 'block';
+            }
+            else
+                x.style.display = 'none';
+        }
+    </script>
+
+    <section id="contactframe" style="display: none;">
+        <button onclick="showForm()">X</button>
+        <iframe src="contactform.html" style="border: 2px solid #000000;"></iframe>
+    </section>
+
+    <section id="showcase">
+        <div class="container">
+            <div class="name">
+                <h1>Andrew Radford</h1>
+            </div>
+        </div>
+    </section>
+
+    <section id="showcase2">
+        <div class="squares">
+            <div class="square">
+                <img src="./img/box1.jpg" />
+            </div>
+            <div class="square">
+                <img src="./img/box2.jpg" />
+            </div>
+            <div class="square">
+                <img src="./img/box3.jpg" />
+            </div>
+            <div class="square">
+                <img src="./img/box4.jpg" />
+            </div>
+            <div class="square">
+                <img src="./img/box5.jpg" />
+            </div>
+        </div>
+
+        <div class="note">
+            <h1>Hi.</h1>
+            <p>I am currently a Computer Science Major at the University of Utah. Here you'll find my current projects and more.</p>
+
+        </div>
+    </section>
+
+    <section id="showcase3">
+        <div class="container">
+            <h1>Résumé</h1>
+        </div>
+    </section>
+
+    <section id="showcase4">
+        <div class="note">
+            <h1>What am I up to?</h1>
+            <p>Here is my updated resume detailing my current activities.</p>
+        </div>
+        <iframe src="AndrewRadfordResume.html" style="border: 2px solid #000000;" align="right"></iframe>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h1>Contact</h1>
+            <button onclick="showForm()" class="button_1">Click me!</button>
+        </div>
+    </section>
+
+    <!--        <section id="boxes">
+            <div class="container">
+                <div class="box">
+                    <img src="./img/icon.png" />
+                    <h3>something1</h3>
+                    <p>s1 description</p>
+                </div>
+                <div class="box">
+                    <img src="./img/icon.png" />
+                    <h3>something2</h3>
+                    <p>s2 description</p>
+                </div>
+                <div class="box">
+                    <img src="./img/icon.png" />
+                    <h3>something3</h3>
+                    <p>s3 description</p>
+                </div>
+            </div>
+        </section>-->
+
+    <footer>
+        <p>Andrew Radford &copy; 2017</p>
+    </footer>
+</body>
+</html>
