@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F143EC3F-416D-40B9-91E9-4580E9250D24}"
 	ProjectSection(SolutionItems) = preProject
@@ -11,11 +11,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		projects\Blender.html = projects\Blender.html
 		css\contactform.css = css\contactform.css
 		contactform.html = contactform.html
+		projects\DeliveryTime.html = projects\DeliveryTime.html
 		projects\Dumped.html = projects\Dumped.html
 		projects\GreyMatter.html = projects\GreyMatter.html
 		index.html = index.html
+		projects\LunarLander.html = projects\LunarLander.html
 		projects\MechaDrop.html = projects\MechaDrop.html
 		projects.html = projects.html
+		projects\SpriteEditor.html = projects\SpriteEditor.html
 		css\style.css = css\style.css
 	EndProjectSection
 EndProject

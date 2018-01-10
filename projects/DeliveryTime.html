@@ -1,0 +1,313 @@
+﻿<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content="stuff" />
+    <meta name="keywords" content="more stuff" />
+    <meta name="author" content="Andrew Radford" />
+    <title>Andrew Radford | Delivery Time</title>
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+    <style type="text/css">
+        body {
+            font-family: 'Comfortaa', sans-serif;
+            font-size: 15px;
+            line-height: 1.5;
+            padding: 0;
+            margin: 0;
+            background-color: #F3F2F2;
+        }
+
+        /*Global*/
+        .container {
+            width: 100%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        /*Header*/
+        header {
+            background: #F3F2F2;
+            color: #1B1C1F;
+            padding: 0;
+            min-height: 50px;
+            margin-top: 15px;
+            border-bottom: #35424A solid;
+        }
+
+            header a {
+                color: #1B1C1F;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 18px;
+            }
+
+            header li {
+                float: left;
+                display: inline;
+                /*Top, Right, Bottom, Left*/
+                padding: 0 20px 0 20px;
+            }
+
+            header #branding {
+                float: left;
+                margin-left: 20px;
+                margin-bottom: 10px;
+            }
+
+                header #branding h1 {
+                    margin: 0;
+                    padding: 0;
+                    color: #1B1C1F;
+                    text-transform: uppercase;
+                    font-size: 18px;
+                    font-weight: lighter;
+                }
+
+            header nav {
+                float: right;
+                margin-top: 20px;
+            }
+
+            header .highlight, header .current a {
+                color: #1B1C1F;
+                font-weight: bold;
+            }
+
+            header a:hover {
+                color: #CCCCCC;
+                /*font-weight:bold;*/
+            }
+
+        /*About*/
+        #about {
+            min-height: 500px;
+            /*text-align: center;*/
+            color: #1B1C1F;
+            margin-top: 50px;
+            margin-left: 7.5%;
+            margin-right: 7.5%;
+        }
+
+            #about h1 {
+                margin: 0;
+                padding: 0;
+                font-size: 60px;
+            }
+
+            #about h2 {
+                margin: 0;
+                padding: 0;
+            }
+
+            #about h3 {
+                margin: 0;
+                padding: 0;
+            }
+
+            #about p {
+                margin: 0;
+            }
+
+            #about img {
+                margin: 0;
+                padding: 0;
+                margin-top: 3px;
+                margin-bottom: 5px;
+                margin-right: 20px;
+                float: left;
+                border-radius: 10px;
+            }
+
+            #about #categories {
+                margin: 0;
+                padding: 0;
+            }
+
+            #about .iClass {
+                font-weight: 800;
+                /*margin-left: -80px;*/
+            }
+
+            #about .mClass {
+                white-space: normal;
+            }
+
+        #images {
+            min-height: 300px;
+            text-align: center;
+            color: #1B1C1F;
+            margin-top: 50px;
+            margin-left: 7.5%;
+            margin-right: 7.5%;
+        }
+
+            #images .gallery {
+                /*margin: 5px;*/
+                border: 1px solid #ccc;
+                float: left;
+                width: 19.6%;
+                border-radius: 10px;
+            }
+
+                #images .gallery:hover {
+                    border: 1px solid #777;
+                }
+
+                #images .gallery img {
+                    width: 100%;
+                    height: auto;
+                    border-radius: 10px;
+                }
+
+            #images .desc {
+                padding: 15px;
+                text-align: center;
+            }
+
+        footer {
+            padding: 20px;
+            margin-top: 100px;
+            color: #1B1C1F;
+            background-color: #F3F2F2;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <img src="../img/Logo2.png" width="64" height="64" />
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../about.html">About</a></li>
+                    <li class="current"><a href="../projects.html">Projects</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <script>
+        function showForm() {
+            var x = document.getElementById('contactframe');
+            if (x.style.display === 'none') {
+                x.style.display = 'block';
+            }
+            else
+                x.style.display = 'none';
+        }
+    </script>
+
+    <section id="about">
+        <div class="container">
+            <h1>Delivery Time</h1>
+            <h2>Retro 80's Arcade Platformer</h2>
+            <img src="../img/DeliveryTimeIcon.PNG" width="512" />
+            <div id="categories">
+                <p>
+                    <span class="iClass">Primary Roles:</span>
+                    <span class="mClass">Game Design, Backend Engineer, UI/Front End Engineer, and Sound</span>
+                </p>
+                <br />
+                <p>
+                    <span class="iClass">Year:</span>
+                    <span class="mClass">November 2017</span>
+                </p>
+                <br />
+                <p>
+                    <span class="iClass">Platforms:</span>
+                    <span class="mClass">MS Windows, MAC OS</span>
+                </p>
+                <br />
+                <p>
+                    <span class="iClass">Tools and Technologies:</span>
+                    <span class="mClass">Unity, Adobe Illustrator, Maya </span>
+                </p>
+                <br />
+                <p>
+                    <span class="iClass">Description:</span>
+                    <span class="mClass">
+                        Made in the vein of your favorite classic 80's arcade games, this game sees you play as Raul the pizza delivery man as you scale apartment complexes in order to complete your deliveries! Watch out for bullies and guard dogs though...
+
+                        In order to scale such heights you must use your pizza as a dynamic platform. This means getting boot marks all over those deliciously greasy pepperonis, but I'm sure your customers won't mind a bit.
+
+                        Your pizza is also a weapon, so be sure to clock all those baddies in the chin with some crust if you want to rack up the points!
+
+                        The pizza you use is smarter than you are, so if you tap the throw button after it's already been released it will find its way back to you. So romantic.
+
+When you're done (AKA dead) be sure to enter your initials and have your score be registered in our global database! Can you take the top spot?! How many levels can you... deliver?
+                    </span>
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!--        <section id="boxes">
+            <div class="container">
+                <div class="box">
+                    <img src="./img/icon.png" />
+                    <h3>something1</h3>
+                    <p>s1 description</p>
+                </div>
+                <div class="box">
+                    <img src="./img/icon.png" />
+                    <h3>something2</h3>
+                    <p>s2 description</p>
+                </div>
+                <div class="box">
+                    <img src="./img/icon.png" />
+                    <h3>something3</h3>
+                    <p>s3 description</p>
+                </div>
+            </div>
+        </section>-->
+
+    <section id="images">
+
+        <div class="gallery">
+            <a target="_blank" href="../img/DeliveryTime1.PNG">
+                <img src="../img/DeliveryTime1.PNG" width="600" height="400">
+            </a>
+            <div class="desc">Game Start!</div>
+        </div>
+
+        <div class="gallery">
+            <a target="_blank" href="../img/DeliveryTime2.PNG">
+                <img src="../img/DeliveryTime2.PNG" width="600" height="400">
+            </a>
+            <div class="desc">Orange Theme!</div>
+        </div>
+
+        <div class="gallery">
+            <a target="_blank" href="../img/DeliveryTime3.PNG">
+                <img src="../img/DeliveryTime3.PNG" width="600" height="400">
+            </a>
+            <div class="desc">Purple Theme!</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="../img/DeliveryTime4.PNG">
+                <img src="../img/DeliveryTime4.PNG" width="600" height="400">
+            </a>
+            <div class="desc">Green Theme!</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="../img/DeliveryTime5.PNG">
+                <img src="../img/DeliveryTime5.PNG" width="600" height="400">
+            </a>
+            <div class="desc">Submit your score!</div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Andrew Radford &copy; 2017</p>
+    </footer>
+</body>
+</html>

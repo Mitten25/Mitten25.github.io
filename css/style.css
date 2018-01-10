@@ -340,7 +340,7 @@ header {
 
 /*Boxes*/
 #boxes {
-    min-height: 1500px;
+    min-height: 1200px;
     align-items: center;
     color: #1B1C1F;
     width: 70%;
@@ -374,8 +374,9 @@ header {
         }
 
         #boxes .box img {
+            object-fit: contain;
             width: 75%;
-            border-radius: 10px;
+            height: 200px;
         }
 
             #boxes .box img:hover {
